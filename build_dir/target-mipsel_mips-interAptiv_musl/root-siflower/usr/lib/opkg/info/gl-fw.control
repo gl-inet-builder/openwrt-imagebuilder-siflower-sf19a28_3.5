@@ -1,0 +1,8 @@
+Package: gl-fw
+Version: 3.0.27-1
+Depends: libc, iptables, ip-full, gl-util, libuci
+Source: /work/work/sf1200/gl/gl-fw
+Section: base
+Architecture: mips_siflower
+Installed-Size: 7804
+Description:  This service allows open port and port forwarding.

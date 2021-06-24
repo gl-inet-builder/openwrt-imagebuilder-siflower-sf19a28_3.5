@@ -1,0 +1,10 @@
+Package: iwinfo
+Version: 2019-11-03-31dcef31-1
+Depends: libc, libiwinfo
+Source: package/network/utils/iwinfo
+License: GPL-2.0
+Section: utils
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mips_siflower
+Installed-Size: 6635
+Description:  Command line frontend for the wireless information library.

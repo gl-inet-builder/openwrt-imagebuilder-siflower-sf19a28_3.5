@@ -1,0 +1,8 @@
+Package: gl-base-files
+Version: 3.0.457-1
+Depends: libc
+Source: /work/work/sf1200/gl/gl-base-files
+Section: base
+Architecture: mips_siflower
+Installed-Size: 48289
+Description:  GL iNet base files

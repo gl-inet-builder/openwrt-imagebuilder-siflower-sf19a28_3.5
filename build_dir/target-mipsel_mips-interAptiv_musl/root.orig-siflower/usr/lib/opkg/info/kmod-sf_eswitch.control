@@ -1,0 +1,8 @@
+Package: kmod-sf_eswitch
+Version: 4.14.90-1
+Depends: kernel (=4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sf_gmac
+Source: package/kernel/sf_eswitch
+Section: kernel
+Architecture: mips_siflower
+Installed-Size: 112875
+Description:  Siflower SFAX8 extern gigabit switch support

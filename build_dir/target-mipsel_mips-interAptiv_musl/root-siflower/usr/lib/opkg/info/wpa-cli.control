@@ -1,0 +1,10 @@
+Package: wpa-cli
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 26859
+Description:  WPA Supplicant command line control utility

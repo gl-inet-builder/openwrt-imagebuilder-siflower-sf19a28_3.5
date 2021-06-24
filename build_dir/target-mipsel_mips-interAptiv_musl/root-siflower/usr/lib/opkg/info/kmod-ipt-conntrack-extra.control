@@ -1,0 +1,15 @@
+Package: kmod-ipt-conntrack-extra
+Version: 4.14.90-1
+Depends: kernel (=4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPL-2.0
+Section: kernel
+Architecture: mips_siflower
+Installed-Size: 12267
+Description:  Netfilter (IPv4) extra kernel modules for connection tracking
+ Includes:
+ - connbytes
+ - connmark/CONNMARK
+ - conntrack
+ - helper
+ - recent

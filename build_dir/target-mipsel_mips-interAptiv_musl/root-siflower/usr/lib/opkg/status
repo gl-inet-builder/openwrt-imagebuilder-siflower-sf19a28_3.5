@@ -1,0 +1,1493 @@
+Package: terminfo
+Version: 6.1-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523099
+
+Package: kmod-sched-connmark
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sched-core, kmod-ipt-core, kmod-ipt-conntrack-extra
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523061
+Auto-Installed: yes
+
+Package: iwinfo
+Version: 2019-11-03-31dcef31-1
+Depends: libc, libiwinfo
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523099
+
+Package: libnl-nf
+Version: 3.4.0-1
+Depends: libc, libnl-route
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+Auto-Installed: yes
+
+Package: kmod-lib-textsearch
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523080
+
+Package: kmod-swconfig
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-libphy
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523096
+
+Package: libc
+Version: 1.1.20-1
+Depends: libgcc
+Status: install hold,user installed
+Essential: yes
+Architecture: mips_siflower
+Installed-Time: 1624523031
+
+Package: libnetfilter-cthelper
+Version: 1.0.0-1
+Depends: libc, libmnl
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: opkg
+Version: 2017-12-07-3b417b9f-2
+Depends: libc, uclient-fetch, libpthread, libubox
+Status: install user installed
+Essential: yes
+Architecture: mips_siflower
+Conffiles:
+ /etc/opkg.conf b73c0a02cb7bc300b2e6c7c29e8e6d38bdb6ded314319e89be3b352f59fff5ab
+ /etc/opkg/customfeeds.conf 61d1f3aa62fe977614ed0c2f0ad3b2ee2f7b451bfb34812071d86d31a4d43d4a
+Installed-Time: 1624523124
+
+Package: libpthread
+Version: 1.1.20-1
+Depends: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: mips_siflower
+Installed-Time: 1624523035
+Auto-Installed: yes
+
+Package: ubus
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubus, libblobmsg-json, ubusd
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523100
+Auto-Installed: yes
+
+Package: kmod-sf_gmac
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sfax8-factory-read
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523110
+
+Package: rpcd
+Version: 2018-11-28-3aa81d0d-1
+Depends: libc, libubus, libubox, libuci, libblobmsg-json
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/config/rpcd 3020b2731dcb4e2a553f5a8b0a9e92776ee677f3e5f9257b1f394b22b89119e6
+Installed-Time: 1624523102
+Auto-Installed: yes
+
+Package: gl-software
+Version: 3.0.28-1
+Depends: libc, gl-util
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+
+Package: gl-wan-detect
+Version: 3.0.1-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.29.3-3
+Depends: libc, jsonfilter
+Status: install user installed
+Essential: yes
+Architecture: mips_siflower
+Installed-Time: 1624523116
+Alternatives: 100:/usr/bin/flock:/bin/busybox, 100:/usr/bin/free:/bin/busybox, 100:/sbin/ip:/bin/busybox, 100:/bin/kill:/bin/busybox, 100:/usr/bin/pgrep:/bin/busybox, 100:/bin/ps:/bin/busybox, 100:/usr/bin/top:/bin/busybox, 100:/usr/bin/uptime:/bin/busybox
+
+Package: lighttpd-mod-cgi
+Version: 1.4.48-2
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: ip-full
+Version: 4.16.0-8
+Depends: libc, libnl-tiny, libmnl, libcap
+Provides: ip
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523044
+Auto-Installed: yes
+Alternatives: 300:/sbin/ip:/sbin/ip-full
+
+Package: kmod-nfnetlink
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523088
+Auto-Installed: yes
+
+Package: kmod-crypto-hash
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523076
+Auto-Installed: yes
+
+Package: kmod-nf-reject6
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523052
+Auto-Installed: yes
+
+Package: swconfig
+Version: 12
+Depends: libc, libuci, libnl-tiny
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: libiwinfo
+Version: 2019-11-03-31dcef31-1
+Depends: libc, libnl-tiny, libuci, libubus
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: libacl
+Version: 20180121-1
+Depends: libc, libattr
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: hostapd-scripts
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523096
+
+Package: libcurl
+Version: 7.63.0-1
+Depends: libc, libmbedtls, ca-bundle
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: kmod-nf-flow
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-conntrack
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523122
+Auto-Installed: yes
+
+Package: kmod-lib-crc-ccitt
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523125
+Auto-Installed: yes
+
+Package: libev
+Version: 4.22-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: libnetfilter-queue
+Version: 2017-06-27-601abd1c-1
+Depends: libc, libmnl, libnfnetlink
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: kmod-pppoe
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ppp, kmod-pppox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523130
+Auto-Installed: yes
+
+Package: iw-full
+Version: 4.14-1
+Depends: libc, libnl-tiny
+Provides: iw
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523084
+Auto-Installed: yes
+
+Package: libcap
+Version: 2.25-2
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523044
+Auto-Installed: yes
+
+Package: kmod-pppox
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ppp
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523129
+Auto-Installed: yes
+
+Package: kmod-sf_smac
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sfax8-factory-read, kmod-cfg80211
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523108
+
+Package: kmod-ipt-conntrack
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-nf-conntrack
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523050
+Auto-Installed: yes
+
+Package: kmod-nf-reject
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523036
+Auto-Installed: yes
+
+Package: kmod-lib-crc16
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523079
+
+Package: base-files
+Version: 196-r0-789db2e
+Depends: libc, netifd, procd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/config/btn_ctrl_cfg e3ddee9393e93bbed6a7477afe00c9e3413093f6fc16326959d12c254a8f0552
+ /etc/config/bindtable e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/config/style cb96cc08f0cf263ecd527a3e184adf6fb50a74170bc4601495ea7275cddc5f88
+ /etc/config/ddns 87fa2cb0f89517ddccbea2ecda256050125588eba1ce03b19ca3047bf45cb2be
+ /etc/config/siwifi 721f5207a5a3818e0b081d17b417a823141fe2c88c430aab3def1d702bc8cc99
+ /etc/ethers e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/group cc81720c9b4bb67c723fcf7dc51823a9e6937c4a3e6302db60285ffebfde08f7
+ /etc/hosts c1a978d90673437b35fa9494e0a54294062c152bb653d490b718052ab88447fd
+ /etc/inittab 8b395f7d827753e1e92d4a1c369d9fe16caa23bf742b3f78e4599c4dd9b1b6e3
+ /etc/passwd 960045798d07a63c6db81b1d49d02dacb17023785f130c527161edb0ba454977
+ /etc/profile 9e36315e247bae64a6027c973cb421ff6fd76b8eae5adbac824cc8ad63f5a996
+ /etc/protocols 7d551355d5540b07b9d86e623cbbc4abecbb94d2a662b3afcc917940eb0e3d52
+ /etc/rc.local 4dae2de22eca8724aafa407da50de39fae29e9f5ab70d40682e447ef286c760a
+ /etc/services 754ccc71ca347bc79ac4c45139d416b7cf1e65a919dad1db15613a216cd6b9cc
+ /etc/shadow b09ac0006c3c6e09eb4bb49fa4fdc4cac64a8f8385da045ae8a27db8bed04e77
+ /etc/shells 8b35ce73c18161a7d7ed16fa244410993bd031515260e3e0c11749047df48d0a
+ /etc/sysctl.conf c02fe88dc055a1eaee9e7cb631760a3a5a9cea55610b42aa45196838c6f1a55e
+ /etc/sysupgrade.conf 9e87b05fe2f12c84d1c465b396322748479f64bc40e5bab061887f0bd95020a6
+Installed-Time: 1624523116
+
+Package: kmod-nf-nat
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-conntrack
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523048
+Auto-Installed: yes
+
+Package: kmod-input-core
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523120
+Auto-Installed: yes
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: relayd
+Version: 2016-02-07-ad0b25ad-2
+Depends: libc, libubox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: kmod-crypto-crc32c
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-crypto-hash
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523076
+
+Package: mqtt
+Version: 1.3.1-1
+Depends: libc, libpthread, libopenssl
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523035
+Auto-Installed: yes
+
+Package: fcgi
+Version: 2.4.0-1
+Depends: libc, libpthread
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: netifd
+Version: 2018-12-16-2750ce2e-1
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523115
+Auto-Installed: yes
+
+Package: kmod-sf_hnat
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523109
+
+Package: lighttpd-mod-proxy
+Version: 1.4.48-2
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: kmod-ipt-raw
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523065
+Auto-Installed: yes
+
+Package: libmnl
+Version: 1.0.4-1
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523044
+Auto-Installed: yes
+
+Package: ddns-scripts
+Version: 2.7.8-1
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/config/ddns ccdb2a41b8c7d0d42eed42995a86b2bdc8dc689df3fe6c80de8ab9fdb0b15b86
+Installed-Time: 1624523035
+Auto-Installed: yes
+
+Package: libnetfilter-cttimeout
+Version: 1.0.0-1
+Depends: libc, libmnl
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: dnsmasq
+Version: 2.80-5
+Depends: libc, libubus
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/config/dhcp eb820c095b53521c20bcc38d4d1c8a9fa2a43e0c8c41a17b268294d018dad962
+ /etc/dnsmasq.conf 1e6ab19c1ae5e70d609ac7b6246541d52042e4dee1892f825266507ef52d7dfd
+Installed-Time: 1624523116
+
+Package: procd
+Version: 2018-11-23-d6673547-1
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523115
+Auto-Installed: yes
+
+Package: libblkid
+Version: 2.33-1
+Depends: libc, libuuid
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+Auto-Installed: yes
+
+Package: libmbedtls
+Version: 2.16.4-1
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: ubusd
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubox, libblobmsg-json
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523100
+Auto-Installed: yes
+
+Package: libustream-openssl
+Version: 2018-07-30-23a3f283-1
+Depends: libc, libubox, libopenssl
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: kmod-sfax8-factory-read
+Version: 4.14.90-0
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523108
+Auto-Installed: yes
+
+Package: kmod-nf-nat6
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-conntrack6, kmod-nf-nat
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523049
+Auto-Installed: yes
+
+Package: gl-ipv6
+Version: 3.0.14-1
+Depends: libc, gl-util, kmod-ipt-nat6
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523055
+
+Package: lighttpd-mod-expire
+Version: 1.4.48-2
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: gl-util
+Version: 3.0.212-1
+Depends: libc, libuci, libjson-c, libiwinfo, libcurl, libubox, libubus, libblobmsg-json
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: firewall
+Version: 2018-12-06-14589c80-2
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/config/firewall 3717203ffd5929ca558e60803f74b76dab909b5dfac86075127ede35892b1d52
+ /etc/firewall.user b9cacf23267c6e70eaee241e606f261afb1fa3a3e68a25116adebb48748913e9
+Installed-Time: 1624523116
+
+Package: kmod-ipt-compat-xtables
+Version: 4.14.90+2.14-9
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-ip6tables
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523062
+Auto-Installed: yes
+
+Package: gl-repeater
+Version: 3.1.11-1
+Depends: libc, libubus, gl-util, gl-wifi-core, libpthread
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523073
+
+Package: libcomerr
+Version: 1.44.3-1
+Depends: libc, libuuid
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+Auto-Installed: yes
+
+Package: lighttpd
+Version: 1.4.48-2
+Depends: libc, libopenssl, libpcre, libpthread
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/lighttpd/lighttpd.conf 08c6c9797d13a00649364768093838f419568e9cb828f58e091e08b7bff4ee88
+Installed-Time: 1624523074
+
+Package: libnl-genl
+Version: 3.4.0-1
+Depends: libc, libnl-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+Auto-Installed: yes
+
+Package: kmod-ipt-conntrack-extra
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-ipt-conntrack
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523060
+Auto-Installed: yes
+
+Package: kmod-nf-ipt
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523038
+Auto-Installed: yes
+
+Package: tc
+Version: 4.16.0-8
+Depends: libc, kmod-sched-core, libmnl, libcap
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523057
+Auto-Installed: yes
+
+Package: libuci
+Version: 2018-08-11-4c8b4d6e-1
+Depends: libc, libubox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523031
+Auto-Installed: yes
+
+Package: libip4tc
+Version: 1.8.2-2
+Depends: libc, libxtables
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523042
+Auto-Installed: yes
+
+Package: wpad-openssl
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc, libnl-tiny, hostapd-common, libubus, libuci, libopenssl
+Provides: hostapd, wpa-supplicant
+Conflicts: hostapd, hostapd-basic, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-wolfssl, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad-basic-wolfssl, wpad-mini
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523099
+
+Package: gl-base-files-sf
+Version: 3.0.457-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+
+Package: kmod-ip6tables
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-reject6, kmod-nf-ipt6, kmod-ipt-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523054
+Auto-Installed: yes
+
+Package: odhcp6c
+Version: 2018-07-14-67ae6a71-16
+Depends: libc, libubox
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523123
+
+Package: fstools
+Version: 2018-09-29-29e53af0-3
+Depends: libc, ubox
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523102
+Auto-Installed: yes
+
+Package: uclient-fetch
+Version: 2018-11-24-3ba74ebc-1
+Depends: libc, libuclient
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523124
+Auto-Installed: yes
+
+Package: libuclient
+Version: 2018-11-24-3ba74ebc-1
+Depends: libc, libubox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523124
+Auto-Installed: yes
+
+Package: iptables-mod-ipopt
+Version: 1.8.2-2
+Depends: libc, iptables, kmod-ipt-ipopt
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523071
+Auto-Installed: yes
+
+Package: uci
+Version: 2018-08-11-4c8b4d6e-1
+Depends: libc, libuci
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523130
+
+Package: dropbear
+Version: 2017.75-9
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/dropbear/dropbear_rsa_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/config/dropbear 0198dbc97b5a9aac76a5c6233684571ccdcc91fcb735e91c36d2b06a98158589
+Installed-Time: 1624523116
+Alternatives: 100:/usr/bin/ssh:/usr/sbin/dropbear, 100:/usr/bin/scp:/usr/sbin/dropbear
+
+Package: libnl
+Version: 3.4.0-1
+Depends: libc, libnl-genl, libnl-route, libnl-nf
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: libnetfilter-conntrack
+Version: 2017-07-25-e8704326-1
+Depends: libc, libnfnetlink, kmod-nf-conntrack-netlink, libmnl
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: curl
+Version: 7.63.0-1
+Depends: libc, libcurl
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: kmod-nls-utf8
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nls-base
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523095
+
+Package: kmod-nls-cp437
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nls-base
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523092
+
+Package: rpcd-mod-file
+Version: 2018-11-28-3aa81d0d-1
+Depends: libc, libubus, libubox, rpcd
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523102
+
+Package: libstdcpp
+Version: 7.4.0-1
+Status: install hold,user installed
+Essential: yes
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: mtd
+Version: 23
+Depends: libc, libubox
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523123
+
+Package: odhcpd-ipv6only
+Version: 2018-12-12-2d2a3b84-3
+Depends: libc, libubox, libuci, libubus, libnl-tiny
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523123
+
+Package: kmod-ipt-hashlimit
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523064
+Auto-Installed: yes
+
+Package: gl-fw
+Version: 3.0.27-1
+Depends: libc, iptables, ip-full, gl-util, libuci
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/config/glfw ef47319c04417aa413b10322f85604348379f1afefcf4671c90a0499180c05c7
+Installed-Time: 1624523044
+
+Package: gl-traffic
+Version: 1.0.5-1
+Depends: libc, libpcap, libpthread
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: kmod-sched
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sched-core, kmod-ipt-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523058
+Auto-Installed: yes
+
+Package: libjson-c
+Version: 0.12.1-2
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523031
+Auto-Installed: yes
+
+Package: libgcc
+Version: 7.4.0-1
+Status: install hold,user installed
+Essential: yes
+Architecture: mips_siflower
+Installed-Time: 1624523031
+Auto-Installed: yes
+
+Package: libip6tc
+Version: 1.8.2-2
+Depends: libc, libxtables
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523043
+Auto-Installed: yes
+
+Package: gl-cloud-ui
+Version: 3.0.31-1
+Depends: libc, gl-util, libjson-c, gl-mqtt, gl-ddns
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523035
+
+Package: ipset
+Version: 7.1-1
+Depends: libc, kmod-ipt-ipset, libmnl, libipset
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523098
+
+Package: libuuid
+Version: 2.33-1
+Depends: libc, librt
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: ppp
+Version: 2.4.7-14
+Depends: libc, kmod-ppp
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/ppp/chap-secrets 6981fa176a79f8c12be5826c421b16253a616747018ba7e76752a9d36d1d51d4
+ /etc/ppp/filter 579583b318e0cff706ffc134620b42d3fbce8fc31aeb0ad7eea1cc859868e902
+ /etc/ppp/options 01f7358a5528be037dde329a2ecfb7a63382aababf21d4f5bc085f5acef95133
+Installed-Time: 1624523127
+
+Package: libubox
+Version: 2018-07-25-c83a84af-2
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523031
+Auto-Installed: yes
+
+Package: rtty-openssl
+Version: 7.4.2-1
+Depends: libc, libev, libopenssl
+Provides: rtty
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/config/rtty 13b17c22ab497a8f5be38133a57ab7ce221e7123fbb7336930c3e8a9e3e62742
+Installed-Time: 1624523034
+
+Package: logd
+Version: 2018-12-18-876c7f5b-1
+Depends: libc, libubox, libubus, libblobmsg-json
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523122
+
+Package: librt
+Version: 1.1.20-1
+Depends: libpthread
+Status: install hold installed
+Essential: yes
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: kmod-mac80211
+Version: 4.14.90+4.19.7-1-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-cfg80211, hostapd-common
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523085
+
+Package: lighttpd-mod-access
+Version: 1.4.48-2
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: iptables-mod-hashlimit
+Version: 1.8.2-2
+Depends: libc, iptables, kmod-ipt-hashlimit
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523069
+Auto-Installed: yes
+
+Package: libjson-script
+Version: 2018-07-25-c83a84af-2
+Depends: libc, libubox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523115
+Auto-Installed: yes
+
+Package: libss
+Version: 1.44.3-1
+Depends: libc, libcomerr
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: uclibcxx
+Version: 0.2.4-3
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523099
+
+Package: libblobmsg-json
+Version: 2018-07-25-c83a84af-2
+Depends: libc, libjson-c, libubox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.8.2-2
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523044
+Auto-Installed: yes
+
+Package: openwrt-keyring
+Version: 2018-05-18-103a32e9-1
+Depends: libc
+Provides: lede-keyring
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523115
+Auto-Installed: yes
+
+Package: kmod-nf-conntrack-netlink
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nfnetlink, kmod-ipt-conntrack
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523088
+
+Package: kmod-libphy
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523082
+
+Package: kmod-fuse
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523078
+
+Package: kmod-nf-nathelper-extra
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-nat, kmod-lib-textsearch, kmod-ipt-raw
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523089
+
+Package: bridge
+Version: 1.6-3
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+Alternatives: 300:/usr/sbin/brctl:/usr/libexec/bridge-utils-brctl
+
+Package: jshn
+Version: 2018-07-25-c83a84af-2
+Depends: libc, libjson-c, libubox, libblobmsg-json
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523099
+Auto-Installed: yes
+
+Package: libncurses
+Version: 6.1-1
+Depends: libc, terminfo
+Provides: libncursesw
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: e2fsprogs
+Version: 1.44.3-1
+Depends: libc, libuuid, libext2fs
+Status: install user installed
+Architecture: mips_siflower
+Conffiles:
+ /etc/e2fsck.conf dece11e2b15f487d7d2bf9f96abe2eaaf9cd33f02d7b9725b9116023d7786cac
+Installed-Time: 1624523104
+
+Package: kmod-ipt-core
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-reject, kmod-nf-ipt
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523039
+Auto-Installed: yes
+
+Package: libpcap
+Version: 1.9.0-1
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Auto-Installed: yes
+
+Package: libcares
+Version: 1.14.0-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: ca-certificates
+Version: 20180409-3
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1624523104
+
+Package: kmod-ppp
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-lib-crc-ccitt, kmod-slhc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523127
+Auto-Installed: yes
+
+Package: kmod-ipt-ipset
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-nfnetlink
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523098
+Auto-Installed: yes
+
+Package: snapshot-tool
+Version: 2018-09-29-29e53af0-3
+Depends: libc, libubox, fstools
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523102
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: gl-wifi-core
+Version: 3.0.195-1
+Depends: libc, gl-util
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523035
+Auto-Installed: yes
+
+Package: gl-monitor
+Version: 3.0.122-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523055
+
+Package: ip-tiny
+Version: 4.16.0-8
+Depends: libc, libnl-tiny, libmnl
+Provides: ip
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+Alternatives: 200:/sbin/ip:/sbin/ip-tiny
+
+Package: wpa-cli
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523099
+
+Package: libubus
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523031
+Auto-Installed: yes
+
+Package: gl-base-files
+Version: 3.0.457-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+
+Package: kmod-nf-conntrack
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523046
+Auto-Installed: yes
+
+Package: iptables-mod-conntrack-extra
+Version: 1.8.2-2
+Depends: libc, iptables, kmod-ipt-conntrack-extra, kmod-ipt-raw
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523066
+Auto-Installed: yes
+
+Package: gl-mqtt
+Version: 3.1.41-1
+Depends: libc, libpthread, mqtt, libcurl, libjson-c, gl-util, gl-wifi-core
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523035
+Auto-Installed: yes
+
+Package: usign
+Version: 2015-07-04-ef641914-1
+Depends: libc, libubox
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523115
+Auto-Installed: yes
+
+Package: libnl-core
+Version: 3.4.0-1
+Depends: libc, libpthread
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+Auto-Installed: yes
+
+Package: iptables-mod-u32
+Version: 1.8.2-2
+Depends: libc, iptables, kmod-ipt-u32
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523073
+Auto-Installed: yes
+
+Package: ip6tables
+Version: 1.8.2-2
+Depends: libc, kmod-ip6tables, iptables
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523118
+
+Package: libxtables
+Version: 1.8.2-2
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523040
+Auto-Installed: yes
+
+Package: zlib
+Version: 1.2.11-2
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: kmod-nf-ipt6
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-ipt
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523053
+Auto-Installed: yes
+
+Package: mwan3
+Version: 2.8.4-2
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+Status: install user installed
+Architecture: all
+Conffiles:
+ /etc/config/mwan3 7c4be66f864c78751d877cd29c2889a748beb9d5ce3a9bbeb95db5b962e56cba
+ /etc/mwan3.user 6226c1286a55bbdee865a24321e8a4ca80ca7553b5d81adb41ed774eddc4d192
+Installed-Time: 1624523099
+
+Package: ca-bundle
+Version: 20180409-3
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: libnl-route
+Version: 3.4.0-1
+Depends: libc, libnl-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+Auto-Installed: yes
+
+Package: kmod-ipt-ipmark
+Version: 4.14.90+2.14-9
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-ipt-compat-xtables
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523063
+Auto-Installed: yes
+
+Package: kmod-nls-iso8859-1
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nls-base
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523094
+
+Package: kmod-ipt-ipopt
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523070
+Auto-Installed: yes
+
+Package: gl-tertf
+Version: 4.0.36-1
+Depends: libc, libiwinfo, gl-util, libjson-c, gl-traffic
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: kmod-nf-conntrack6
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-nf-conntrack
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523047
+Auto-Installed: yes
+
+Package: kmod-sf_eswitch
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sf_gmac
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523112
+
+Package: kmod-ipt-nat6
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-nf-nat6, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-core, kmod-ipt-nat, kmod-ipt-core, kmod-ip6tables
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523055
+Auto-Installed: yes
+
+Package: libext2fs
+Version: 1.44.3-1
+Depends: libc, libuuid, libblkid, libss, libcomerr
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: ubox
+Version: 2018-12-18-876c7f5b-1
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523100
+Auto-Installed: yes
+
+Package: kernel
+Version: 4.14.90-1-086fe9ea627c083919ecb1fa34349696
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523031
+
+Package: gl-sdk
+Version: 3.0.586-1
+Depends: libc, libuuid, libpthread, libuci, libubus, libubox, libjson-c, libiwinfo, gl-util, fcgi, relayd, bridge, swconfig, gl-wan-detect, gl-wifi-core
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523031
+Auto-Installed: yes
+
+Package: gl-ddns
+Version: 3.0.24-1
+Depends: libc, libjson-c, gl-util, ddns-scripts
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523035
+Auto-Installed: yes
+
+Package: kmod-ipt-u32
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523072
+Auto-Installed: yes
+
+Package: rpcd-mod-iwinfo
+Version: 2018-11-28-3aa81d0d-1
+Depends: libc, libubus, libubox, rpcd, libiwinfo
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523102
+
+Package: gl-firewall
+Version: 3.0.5-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523035
+
+Package: lighttpd-mod-fastcgi
+Version: 1.4.48-2
+Depends: libc, lighttpd
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: kmod-button-hotplug
+Version: 4.14.90-3
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-input-core
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523120
+
+Package: kmod-sf_netlink
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523114
+
+Package: kmod-nls-base
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523091
+
+Package: fwtool
+Version: 1
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523116
+Auto-Installed: yes
+
+Package: libipset
+Version: 7.1-1
+Depends: libc, kmod-ipt-ipset, libmnl
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523098
+Auto-Installed: yes
+
+Package: gl-qos-internal
+Version: 3.0.37-1
+Depends: libc, gl-util, libjson-c, tc, kmod-sched, kmod-sched-core, kmod-sched-connmark, kmod-ipt-ipmark, kmod-ipt-hashlimit, kmod-ipt-core, iptables, iptables-mod-conntrack-extra, iptables-mod-hashlimit, iptables-mod-ipopt, iptables-mod-u32
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523073
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox, libjson-c
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523115
+Auto-Installed: yes
+
+Package: hostapd-common
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523085
+Auto-Installed: yes
+
+Package: kmod-ipt-offload
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-nf-flow
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523122
+
+Package: libattr
+Version: 20170915-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: libopenssl
+Version: 1.0.2p-1
+Depends: libc, zlib
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523034
+Auto-Installed: yes
+
+Package: gl-ui
+Version: 3.0.733-1
+Depends: libc
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523074
+
+Package: wireless-regdb
+Version: 2017-10-20-4343d359
+Depends: libc
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523084
+Auto-Installed: yes
+
+Package: libnet-1.2.x
+Version: 1.2-rc3-3
+Depends: libc, libpcap
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523104
+
+Package: kmod-slhc
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-lib-crc-ccitt
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523126
+Auto-Installed: yes
+
+Package: kmod-cfg80211
+Version: 4.14.90+4.19.7-1-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), iw, wireless-regdb
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523085
+Auto-Installed: yes
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-14
+Depends: libc, kmod-pppoe
+Status: install user installed
+Architecture: mips_siflower
+Installed-Time: 1624523130
+
+Package: kmod-ipt-nat
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-nf-nat
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523051
+Auto-Installed: yes
+
+Package: kmod-sched-core
+Version: 4.14.90-1
+Depends: kernel (= 4.14.90-1-086fe9ea627c083919ecb1fa34349696)
+Status: install ok installed
+Architecture: mips_siflower
+Installed-Time: 1624523057
+Auto-Installed: yes
+

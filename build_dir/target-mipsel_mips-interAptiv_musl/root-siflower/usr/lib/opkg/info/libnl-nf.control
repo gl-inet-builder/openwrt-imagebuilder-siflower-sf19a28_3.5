@@ -1,0 +1,9 @@
+Package: libnl-nf
+Version: 3.4.0-1
+Depends: libc, libnl-route
+Source: package/libs/libnl
+License: LGPL-2.1
+Section: libs
+Architecture: mips_siflower
+Installed-Size: 24336
+Description:  Netfilter Netlink Library Functions

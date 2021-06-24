@@ -1,0 +1,10 @@
+Package: libustream-openssl
+Version: 2018-07-30-23a3f283-1
+Depends: libc, libubox, libopenssl
+Source: package/libs/ustream-ssl
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 3967
+Description:  ustream SSL Library (openssl)

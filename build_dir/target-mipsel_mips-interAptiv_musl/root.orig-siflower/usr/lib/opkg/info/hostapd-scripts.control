@@ -1,0 +1,10 @@
+Package: hostapd-scripts
+Version: 2019-08-08-ca8c2bd2-4
+Depends: libc
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_siflower
+Installed-Size: 1643
+Description:  This package contains some scripts support wds or repeater.

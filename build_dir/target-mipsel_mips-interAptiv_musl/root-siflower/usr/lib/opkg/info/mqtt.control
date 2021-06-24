@@ -1,0 +1,8 @@
+Package: mqtt
+Version: 1.3.1-1
+Depends: libc, libpthread, libopenssl
+Source: feeds/gli_pub/mqtt
+Section: utils
+Architecture: mips_siflower
+Installed-Size: 261885
+Description:  MQTT common libary

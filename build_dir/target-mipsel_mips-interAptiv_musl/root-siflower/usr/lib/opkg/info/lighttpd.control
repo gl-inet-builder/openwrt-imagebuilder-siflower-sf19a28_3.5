@@ -1,0 +1,11 @@
+Package: lighttpd
+Version: 1.4.48-2
+Depends: libc, libopenssl, libpcre, libpthread
+Source: feeds/gli_pub/lighttpd
+License: BSD-3c
+LicenseFiles: COPYING
+Section: net
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mips_siflower
+Installed-Size: 137981
+Description:  A flexible and lightweight web server

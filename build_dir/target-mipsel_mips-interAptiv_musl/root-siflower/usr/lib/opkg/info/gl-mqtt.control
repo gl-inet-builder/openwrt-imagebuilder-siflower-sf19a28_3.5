@@ -1,0 +1,8 @@
+Package: gl-mqtt
+Version: 3.1.41-1
+Depends: libc, libpthread, mqtt, libcurl, libjson-c, gl-util, gl-wifi-core
+Source: /work/work/sf1200/gl/gl-mqtt
+Section: base
+Architecture: mips_siflower
+Installed-Size: 42131
+Description:  MQTT common libary

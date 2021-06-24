@@ -1,0 +1,110 @@
+#!/bin/sh
+
+# exit if not RECEIVED
+if [ "$1" != "RECEIVED" ];then
+    exit 0
+fi
+
+NUMBER="`uci get glforward.general.phone`"
+MAIL=`uci get glforward.general.email|sed 's/ /,/g'`
+SUBJECT=`uci get glforward.general.subject`
+SENDER=`cat /etc/ssmtp/ssmtp.conf|grep ^AuthUser|grep -E -o [a-zA-Z0-9.-]{1,}@[a-zA-Z0-9.-]{1,}\.[a-z]{1,3}`
+SOURCE=`cat $2|grep ^From:|cut -d " " -f2`
+QUEUE=`uci get glforward.general.queue`
+
+logger -t smsforward "Forward script start"
+
+# check network connectivity/save sms path to uci file
+ping -c 1 -w 2 -s 56 -q 8.8.8.8 >/dev/null 2>&1
+if [ "$?" != "0" ];then
+    uci add_list glforward.general.queue=$2
+    uci commit glforward
+    logger -t smsforward "Network unreachable, $2 will be sent next time"
+    exit 0
+fi
+
+if [ "$QUEUE" != "" ];then
+    logger -t smsforward "start sending saved sms queue"
+    for sms in $QUEUE
+    do
+
+        line="$(awk '/^\s*$/{print NR}' $sms|head -n 1)"
+        [ -z "$line" ] && exit 0
+
+        cat $sms | grep UCS2
+        if [ $? -eq 0 ]; then
+
+        LENGTH=`cat $sms | grep Length: | head -n 1 | cut -d " " -f2`
+
+        TMPFILE=`mktemp /tmp/forward_XXXXXX`
+        sed -e "1,${line}d" $sms > $TMPFILE
+        MESSAGE="`gl_modem convert $TMPFILE $LENGTH`"
+
+        else
+
+        MESSAGE="`sed "1,${line}da" < $sms`"
+
+        fi        
+
+        if [ -n "$NUMBER" ];then
+            sendsms "$NUMBER" "${MESSAGE}" international
+            logger -t smsforward "$sms has been sent to $NUMBER"
+        fi
+
+
+        if [ -n "$MAIL" ];then
+            echo -e "From: "$SENDER"\nSubject:${SUBJECT} received a message from ${SOURCE}\nContent-Type: text/html;charset=UTF-8\n\n"$MESSAGE"" | ssmtp -vvv $MAIL
+            logger -t smsforward "$sms has been sent to $MAIL"
+        fi
+
+    done
+
+    uci del glforward.general.queue
+    uci commit
+
+    logger -t smsforward "sms queue clear"
+
+fi
+
+if [ "$1" = "RECEIVED" ]; then
+
+    logger -t smsforward "start sending current received sms"
+
+    line="$(awk '/^\s*$/{print NR}' $2|head -n 1)"
+    [ -z "$line" ] && exit 0
+
+    cat $2 | grep UCS2
+    if [ $? -eq 0 ]; then
+
+    LENGTH=`cat $2 | grep Length: | head -n 1 | cut -d " " -f2`
+
+    TMPFILE=`mktemp /tmp/forward_XXXXXX`
+    sed -e "1,${line}d" $2 > $TMPFILE
+    MESSAGE="`gl_modem convert $TMPFILE $LENGTH`"
+
+    else
+
+    MESSAGE="`sed "1,${line}da" < $2`"
+
+    fi
+
+    
+    if [ -n "$NUMBER" ];then
+        sendsms "$NUMBER" "${MESSAGE}" international
+        logger -t smsforward "$2 has been sent to $NUMBER"
+    else
+        logger -t smsforward "Phone number not set"
+    fi
+
+
+    if [ -n "$MAIL" ];then
+        echo -e "From: "$SENDER"\nSubject:${SUBJECT} received a message from ${SOURCE}\nContent-Type: text/html;charset=UTF-8\n\n"$MESSAGE"" | ssmtp -vvv $MAIL
+        logger -t smsforward "$2 has been sent to $MAIL"
+    else
+        logger -t smsforward "Email account not set"
+    fi
+
+fi
+
+logger -t smsforward "Forward script end"
+

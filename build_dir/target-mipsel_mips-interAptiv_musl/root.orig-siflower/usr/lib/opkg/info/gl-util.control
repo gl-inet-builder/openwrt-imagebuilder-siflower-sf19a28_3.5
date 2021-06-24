@@ -1,0 +1,8 @@
+Package: gl-util
+Version: 3.0.212-1
+Depends: libc, libuci, libjson-c, libiwinfo, libcurl, libubox, libubus, libblobmsg-json
+Source: /work/work/sf1200/gl/gl-util
+Section: base
+Architecture: mips_siflower
+Installed-Size: 36684
+Description:  GL.iNet SDK3.0.

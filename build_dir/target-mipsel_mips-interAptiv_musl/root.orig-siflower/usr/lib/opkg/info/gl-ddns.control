@@ -1,0 +1,8 @@
+Package: gl-ddns
+Version: 3.0.24-1
+Depends: libc, libjson-c, gl-util, ddns-scripts
+Source: /work/work/sf1200/gl/gl-ddns
+Section: base
+Architecture: mips_siflower
+Installed-Size: 17906
+Description:  glddns api for gl-inet.

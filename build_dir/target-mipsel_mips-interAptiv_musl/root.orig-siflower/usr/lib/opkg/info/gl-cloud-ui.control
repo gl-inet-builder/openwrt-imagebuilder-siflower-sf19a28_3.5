@@ -1,0 +1,9 @@
+Package: gl-cloud-ui
+Version: 3.0.31-1
+Depends: libc, gl-util, libjson-c, gl-mqtt, gl-ddns
+Source: /work/work/sf1200/gl/gl-cloud-ui
+Section: base
+Architecture: mips_siflower
+Installed-Size: 9034
+Description:  The firmware needs to be upgraded to 3.010 to support cloud management and dynamic DNS.
+ 

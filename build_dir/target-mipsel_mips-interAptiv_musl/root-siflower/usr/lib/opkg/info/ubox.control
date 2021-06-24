@@ -1,0 +1,10 @@
+Package: ubox
+Version: 2018-12-18-876c7f5b-1
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+Source: package/system/ubox
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: mips_siflower
+Installed-Size: 16580
+Description:  OpenWrt system helper toolbox

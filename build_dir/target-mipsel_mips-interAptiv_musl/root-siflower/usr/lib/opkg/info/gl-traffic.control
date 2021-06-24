@@ -1,0 +1,11 @@
+Package: gl-traffic
+Version: 1.0.5-1
+Depends: libc, libpcap, libpthread
+Source: /work/work/sf1200/gl/gl-tertf/gl-traffic
+Section: gl-inet
+Architecture: mips_siflower
+Installed-Size: 7121
+Description:  iftop does for network usage what top(1) does for CPU usage. It 
+ listens to network traffic on a named interface and displays a 
+ table of current bandwidth usage by pairs of hosts. Handy for 
+ answering the question 'why is our ADSL link so slow?'.

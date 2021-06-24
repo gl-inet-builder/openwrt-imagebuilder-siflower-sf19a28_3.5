@@ -1,0 +1,8 @@
+Package: gl-sdk
+Version: 3.0.586-1
+Depends: libc, libuuid, libpthread, libuci, libubus, libubox, libjson-c, libiwinfo, gl-util, fcgi, relayd, bridge, swconfig, gl-wan-detect, gl-wifi-core
+Source: /work/work/sf1200/gl/gl-sdk3.0
+Section: base
+Architecture: mips_siflower
+Installed-Size: 292966
+Description:  GL.iNet SDK3.0.

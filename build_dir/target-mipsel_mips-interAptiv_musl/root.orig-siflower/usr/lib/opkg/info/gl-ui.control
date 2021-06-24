@@ -1,0 +1,8 @@
+Package: gl-ui
+Version: 3.0.733-1
+Depends: libc
+Source: /work/work/sf1200/gl/gl-ui3.0
+Section: base
+Architecture: mips_siflower
+Installed-Size: 2044048
+Description:  GL iNet web UI
