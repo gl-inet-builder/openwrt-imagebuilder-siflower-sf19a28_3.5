@@ -1,8 +1,0 @@
-Package: gl-wan-detect
-Version: 3.0.1-1
-Depends: libc
-Source: /work/work/sf1200/gl/gl-wan-detect
-Section: base
-Architecture: mips_siflower
-Installed-Size: 13797
-Description:  GL Auto Detect Wan Type

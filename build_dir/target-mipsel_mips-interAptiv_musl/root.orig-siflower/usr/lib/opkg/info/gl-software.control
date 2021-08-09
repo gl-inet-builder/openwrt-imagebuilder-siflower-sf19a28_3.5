@@ -1,8 +1,0 @@
-Package: gl-software
-Version: 3.0.28-1
-Depends: libc, gl-util
-Source: /work/work/sf1200/gl/gl-software
-Section: base
-Architecture: mips_siflower
-Installed-Size: 6148
-Description:  Openvpn server endpoint api for gl-inet.

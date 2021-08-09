@@ -1,8 +1,0 @@
-Package: kmod-sf_smac
-Version: 4.14.90-1
-Depends: kernel (=4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sfax8-factory-read, kmod-cfg80211
-Source: package/kernel/sf_smac
-Section: kernel
-Architecture: mips_siflower
-Installed-Size: 602721
-Description:  Kernel module to sf16a18 smac && rf.

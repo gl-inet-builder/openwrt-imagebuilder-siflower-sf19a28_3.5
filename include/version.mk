@@ -7,7 +7,7 @@
 #
 
 # Substituted by SDK, do not remove
-REVISION:=r0-789db2e
+REVISION:=r0-3812b49
 # SOURCE_DATE_EPOCH:=x
 
 PKG_CONFIG_DEPENDS += \
@@ -94,7 +94,7 @@ endef
 #'
 
 # add siwifi software version
-include $(TOPDIR)/include/siwifi_version.mk
+# include $(TOPDIR)/include/siwifi_version.mk
 
 VERSION_SED_SCRIPT:=$(SED) 's,%U,$(call sed_escape,$(VERSION_REPO)),g' \
 	-e 's,%V,$(call sed_escape,$(VERSION_NUMBER)),g' \

@@ -1,8 +1,0 @@
-Package: gl-qos-internal
-Version: 3.0.37-1
-Depends: libc, gl-util, libjson-c, tc, kmod-sched, kmod-sched-core, kmod-sched-connmark, kmod-ipt-ipmark, kmod-ipt-hashlimit, kmod-ipt-core, iptables, iptables-mod-conntrack-extra, iptables-mod-hashlimit, iptables-mod-ipopt, iptables-mod-u32
-Source: /work/work/sf1200/gl/gl-qos
-Section: base
-Architecture: mips_siflower
-Installed-Size: 6846
-Description:  GL iNet Qos Function

@@ -1,9 +1,0 @@
-Package: kmod-crypto-crc32c
-Version: 4.14.90-1
-Depends: kernel (=4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-crypto-hash
-Source: package/kernel/linux
-License: GPL-2.0
-Section: kernel
-Architecture: mips_siflower
-Installed-Size: 1006
-Description:  CRC32c CRC module

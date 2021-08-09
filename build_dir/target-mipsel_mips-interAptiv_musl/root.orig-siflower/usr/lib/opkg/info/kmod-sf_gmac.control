@@ -1,8 +1,0 @@
-Package: kmod-sf_gmac
-Version: 4.14.90-1
-Depends: kernel (=4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-sfax8-factory-read
-Source: package/kernel/sf_gmac
-Section: kernel
-Architecture: mips_siflower
-Installed-Size: 15838
-Description:  Siflower SFA18 gmac support

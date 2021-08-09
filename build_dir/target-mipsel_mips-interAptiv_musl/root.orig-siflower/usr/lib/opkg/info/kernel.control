@@ -1,9 +1,0 @@
-Package: kernel
-Version: 4.14.90-1-086fe9ea627c083919ecb1fa34349696
-Depends: libc
-Source: package/kernel/linux
-License: GPL-2.0
-Section: sys
-Architecture: mips_siflower
-Installed-Size: 106
-Description:  Virtual kernel package

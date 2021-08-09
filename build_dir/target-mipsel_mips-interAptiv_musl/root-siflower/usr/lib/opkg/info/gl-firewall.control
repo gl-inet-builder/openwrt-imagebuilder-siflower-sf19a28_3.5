@@ -1,8 +1,0 @@
-Package: gl-firewall
-Version: 3.0.5-1
-Depends: libc
-Source: /work/work/sf1200/gl/gl-firewall
-Section: base
-Architecture: mips_siflower
-Installed-Size: 723
-Description:  GL iNet firewall

@@ -1,9 +1,0 @@
-Package: kmod-ipt-u32
-Version: 4.14.90-1
-Depends: kernel (=4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core
-Source: package/kernel/linux
-License: GPL-2.0
-Section: kernel
-Architecture: mips_siflower
-Installed-Size: 1208
-Description:  Kernel modules for U32

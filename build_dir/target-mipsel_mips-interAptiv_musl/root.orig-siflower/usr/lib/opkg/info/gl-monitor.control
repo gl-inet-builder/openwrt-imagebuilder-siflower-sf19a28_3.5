@@ -1,8 +1,0 @@
-Package: gl-monitor
-Version: 3.0.122-1
-Depends: libc
-Source: /work/work/sf1200/gl/gl-monitor
-Section: base
-Architecture: mips_siflower
-Installed-Size: 7337
-Description:  gl-monitor

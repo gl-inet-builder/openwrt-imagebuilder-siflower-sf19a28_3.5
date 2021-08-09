@@ -352,6 +352,10 @@ metadata_gl_json = \
 		} \
 	}'
 
+define Build/append-gl-metadata
+	echo $(call metadata_gl_json,$(SUPPORTED_DEVICES)) | fwtool -I - $@
+endef
+
 define Build/append-metadata
 	echo $(call metadata_gl_json,$(SUPPORTED_DEVICES)) | fwtool -I - $1
 	$(if $(SUPPORTED_DEVICES),-echo $(call metadata_json,$(SUPPORTED_DEVICES)) | fwtool -I - $@)

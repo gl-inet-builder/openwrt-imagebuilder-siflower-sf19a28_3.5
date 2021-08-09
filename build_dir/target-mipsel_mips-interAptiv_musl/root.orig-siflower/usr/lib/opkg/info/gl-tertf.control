@@ -1,8 +1,0 @@
-Package: gl-tertf
-Version: 4.0.36-1
-Depends: libc, libiwinfo, gl-util, libjson-c, gl-traffic
-Source: /work/work/sf1200/gl/gl-tertf
-Section: base
-Architecture: mips_siflower
-Installed-Size: 16333
-Description:  Terminal traffic.

@@ -1,3 +1,0 @@
-/etc/modules-boot.d/50-sf_netlink
-/etc/modules.d/50-sf_netlink
-/lib/modules/4.14.90/sfax8_netlink.ko

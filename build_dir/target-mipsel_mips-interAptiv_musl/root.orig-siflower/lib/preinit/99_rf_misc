@@ -1,9 +1,0 @@
-#!/bin/sh
-
-. /lib/sfwifi.sh
-
-boot_hook_add preinit_main load_firmware
-boot_hook_add preinit_main insmod_rf
-boot_hook_add preinit_main insmod_cfg80211
-boot_hook_add preinit_main insmod_fmac_lb
-boot_hook_add preinit_main insmod_fmac_hb

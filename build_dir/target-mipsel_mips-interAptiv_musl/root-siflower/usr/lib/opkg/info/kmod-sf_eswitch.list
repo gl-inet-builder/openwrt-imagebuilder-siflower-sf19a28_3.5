@@ -1,3 +1,0 @@
-/etc/modules-boot.d/55-sf_eswitch
-/lib/modules/4.14.90/sf_eswitch.ko
-/etc/modules.d/55-sf_eswitch

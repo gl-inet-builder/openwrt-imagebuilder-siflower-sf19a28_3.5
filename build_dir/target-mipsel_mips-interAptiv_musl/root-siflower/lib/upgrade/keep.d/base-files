@@ -1,8 +1,0 @@
-/etc/config/
-/etc/config/network
-/etc/config/system
-/etc/crontabs/
-/etc/dropbear/
-/etc/iproute2/rt_protos
-/etc/iproute2/rt_tables
-/etc/profile.d

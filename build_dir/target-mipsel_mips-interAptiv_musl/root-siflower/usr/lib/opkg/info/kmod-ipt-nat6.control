@@ -1,9 +1,0 @@
-Package: kmod-ipt-nat6
-Version: 4.14.90-1
-Depends: kernel (=4.14.90-1-086fe9ea627c083919ecb1fa34349696), kmod-ipt-core, kmod-nf-nat6, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-core, kmod-ipt-nat, kmod-ipt-core, kmod-ip6tables
-Source: package/kernel/linux
-License: GPL-2.0
-Section: kernel
-Architecture: mips_siflower
-Installed-Size: 2845
-Description:  Netfilter (IPv6) kernel modules for NAT targets

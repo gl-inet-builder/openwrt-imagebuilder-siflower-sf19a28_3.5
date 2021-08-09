@@ -19,6 +19,7 @@
 &gmac {
 	status = "okay";
 	delay = <0x24 0x21>;
+	esw-rst-gpio = <11>;
 };
 
 &spi2 {
